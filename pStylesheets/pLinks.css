@@ -1,0 +1,55 @@
+/* 
+project stylesheet
+pLinks.css
+Fall 2016
+Zhiyuan Xue
+*/
+
+html, body {
+	height: 98%;
+	width: 98%;
+	background-color: lightblue;
+	font-family: "Lucida Sans", Helvetica, Calibri, Arial, sans-serif;
+}
+
+.header{
+	width: 98%;
+	height:50px;
+	margin: auto;
+	/*      Top  Right Bottom  Left */
+	text-align: center;
+	border-bottom: 5px solid red;
+	padding: 5px 30px 5px 30px;
+}
+
+table .comp, .comp th, .comp td {
+	margin:100px;
+	border: 5px solid black;
+	border-collapse: collapse;
+}
+
+.comp th, .comp td{
+	padding : 20px;
+	text-align: center;
+}
+
+table.comp{
+	width:99%;
+}
+
+#competitors{
+	margin: 10px auto 10px auto;
+	position: relative;
+	text-align:center;
+}
+
+.prefooter{
+	text-align: center;
+}
+
+.copyRight {
+	padding-top: 20px; 
+	text-align: center;
+}
+
+/*Project Links page stylinig ends here*/

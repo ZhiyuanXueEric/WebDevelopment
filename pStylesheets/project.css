@@ -1,0 +1,204 @@
+/*
+Final Project Integrated Stylesheet
+project.css
+Fall 2016
+Zhiyuan Xue 
+*/
+
+/*header styling starts here*/
+html, body {
+	height:98%;
+	background-image: url("../pImages/background.jpg");
+	font-family: "Times New Roman", Times, Serif;
+	font-style: italic;
+}
+
+header{
+	width: 100%;
+	height: 135px;
+	border-bottom: 10px solid red;
+}
+
+header ul{
+	list-style: none;	
+}
+
+header ul li{
+	width: 7%;
+	margin: auto;
+	text-align: center;
+}
+
+header ul a {
+	color: red;
+	display: inline-block;
+	font-size: 80%;
+	font-weight: bold;
+	border-radius: 7px;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header ul a:hover { background: lightblue;} /*red, green, blue, x*/
+
+/*header styling ends here*/
+
+.wrapper {
+	min-height: 100%;
+	height: 600px;
+	position: relative;
+}
+
+/*Home page styling*/
+.home{
+	font-weight: bold;
+	font-size: 135%;
+	text-align: center;
+	margin-top: 120px;
+}
+
+/*product page styling*/
+.food img{
+	width: 195px;
+	height: 160px;
+	padding-top: 20px;
+	padding-left: 440px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*about us page styling*/
+.bold{
+	font-weight: bold;
+	font-size: 135%;
+	text-align: left;
+}
+
+/*sign up page styling*/
+.regform {
+	width: 47%;
+	color: darkred;
+	margin: auto;
+	margin-top: 15px;
+	font-size: 95%;
+	text-align: center;
+	font-weight: bold;
+	padding-left: 30px;
+	line-height: 2em;
+	border: 10px double black;
+	background-image: url("../pImages/formBackground.jpg");
+}
+
+label {
+	width: 11em;
+	float: left;
+	padding-left: 30px;
+}
+
+input[type=text], input[type=password], input[type=tel], input[type=email] {
+	width: 200px;
+	height: 20px;
+	padding: 2px;
+}
+
+input[placeholder]{
+	text-align: center;
+	color: red;
+}	
+
+.submit{ 
+	text-align: center;
+}
+
+.submit input{
+	text-align: center;
+	width: 160px;
+	color: darkred;
+	font-size: 95%;
+	font-weight: bold;
+	background-color: lightblue;
+}
+
+/*After registration, a customer will be directed to the confirm page*/
+/*confirm page styling*/
+.color{
+	text-align: center;
+	color: red;
+	font-weight: bold;
+	font-size: 150%;
+}
+
+.confirm{
+	font-weight: bold;
+	font-size: 135%;
+	text-align: center;
+}
+
+.confirm img{
+	width: 150px;
+	height: 150px;
+}
+
+/*contact us page styling*/
+textarea{
+	width: 204px;
+	height: 50px;
+	margin-top: 3px;
+	color: red;
+	text-align: center;
+}
+
+/*After filling out contact us form, the page should be re-directed to the thank-you page*/
+
+/*login page styling*/
+.rc{
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*After logging in, a customer will be direct to the welcome page*/
+/*welcome page styling*/
+.center img{
+	width: 350px;
+	height: 225px;
+}
+
+/*username not available page styling*/
+.center{	
+	text-align: center;
+	font-size: 135%;
+	font-weight: bold;
+}
+
+.red{
+	color: red;
+}
+
+/*footer styling starts here*/
+.prefooter { padding-bottom: 50px;}
+
+footer {
+	color: red;
+	width: 100%;
+	height: 22px;
+	font-size: 85%;
+	padding-top: 1px;
+	font-weight: bold;
+	border-top: 10px solid red;
+	position: absolute; /*footer doesnt move if the browser is smaller*/
+	bottom: 0;
+}
+
+footer table{
+	width: 100%;
+	text-align: center;
+	background-image: url("../pImages/footer.jpg");
+}
+
+footer td { width: 20%;}
+
+/*footer styling ends here*/
+
